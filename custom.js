@@ -73,3 +73,21 @@ function tsGetStudentData() {
 	
 	return student;
 }
+
+/*
+ * Checks if student has property & adds if not
+ * Does not over-ride current property
+ */
+function tsStudentAddProperty( property, articulateVar ){
+	if ( ! student.hasOwnProperty( property ) ) { 
+		student[property] = tsPlayer.GetVar( articulateVar );
+	}
+}
+
+/*
+ * Over-rides current property & updates
+ */
+function tsStudentUpdateProperty( property, articulateVar ){
+	student[property] = tsPlayer.GetVar( articulateVar );
+}
+
