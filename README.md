@@ -1,7 +1,5 @@
-custom-articulate
+Customizing Articulate Storyline
 =================
-
-Customizing Articulate
 
 To Customize Articulate for every publication:
 
