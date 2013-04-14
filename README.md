@@ -5,8 +5,8 @@ Customizing Articulate
 
 To Customize Articulate for every publication:
 
-1. Edit player.html in Program Files > Articulate > Articulate Storyline > Content
-2. Create js file in Program Files > Articulate > Articulate Storyline > Content > lms
+1. Edit player.html in Program Files > Articulate > Articulate Storyline > Content. See __customize-player__ folder.
+2. Create js file in Program Files > Articulate > Articulate Storyline > Content > lms. See __customize-output__ folder.
 
 To Customize Articulate specific output, edit the following files:
   * _index_lms_html5.html_:
